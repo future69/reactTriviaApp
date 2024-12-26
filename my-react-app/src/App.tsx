@@ -1,13 +1,13 @@
-import Home from "./components/Home";
+import Home from "./pages/Home";
 
 const App = () => {
-  return(
-    <div className="container">
-      <div>
+  return (
+    <>
+      <div className="pageBg">
         <Home />
       </div>
-    </div>
-  )
-}
+    </>
+  );
+};
 
-export default App
+export default App;
