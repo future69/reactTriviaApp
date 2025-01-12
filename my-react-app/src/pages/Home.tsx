@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <>
       <div className="w-full h-full">
-        <div className="w-full h-1/3 flex-col justify-items-center content-center text-center">
+        <div className="w-full h-1/3 flex flex-col justify-center items-center text-center">
           <header className="text-5xl text-white">
             Welcome to my Trivia App
           </header>
-          <div className="max-w-sm text-xl text-white pt-5">
-            Welcome to this trivia app to showcase a simple backend api call to
+          <div className="max-w-sm text-white pt-5 text-center">
+            Welcome to this trivia app to showcase a simple backend API call to
             send & retrieve data
           </div>
         </div>
